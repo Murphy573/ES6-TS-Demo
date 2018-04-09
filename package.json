@@ -1,0 +1,21 @@
+{
+  "name": "my_node_project",
+  "version": "1.0.0",
+  "description": "study node",
+  "main": "index.js",
+  "scripts": {
+    "test": "test_node",
+    "dev-build": "webpack --config webpack.config.dev.js",
+    "prod-build": "webpack -p --config webpack.config.prod.js"
+  },
+  "author": "pengfei.li",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "ts-loader": "^3.1.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  }
+}

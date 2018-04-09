@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "./client/ts-for-modules/built",
+    "sourceMap": true,
+    "allowJs": true,
+    "target": "es2016"
+  },
+  "include": [
+    "./client/ts-for-modules/src/**/*"
+  ]
+}
